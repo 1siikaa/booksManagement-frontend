@@ -17,7 +17,8 @@ function Book() {
       <input type='text'class='area' value={input} onChange={handleonChange} placeholder='Enter your book ISBN here'/><br/>
       <input type='text'class='area' value={input} onChange={handleonChange} placeholder='Enter your book category here'/><br/>
       <input type='text'class='area' value={input} onChange={handleonChange} placeholder='Enter your book subcategory here'/><br/>
-      <input type='file'class='area' value={input} onChange={handleonChange} placeholder='Enter your book cover here'/><br/>
+      <h4>Please Enter your book cover here</h4>
+      <input type='file'class='area' value={input} onChange={handleonChange}/><br/>
       <button type='submit' class='submit'>Submit</button>
       </div>
     
