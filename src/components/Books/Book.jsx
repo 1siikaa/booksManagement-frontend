@@ -12,7 +12,7 @@ function Book() {
     <div class='container'>
       <div class= 'form-design'>
         <h1>Publish <span>Book</span></h1>
-      <input type='text' class='area' value={input} onChange={handleonChange} placeholder='Enter your book title here'><br/>
+      <input type='text' class='area' value={input} onChange={handleonChange} placeholder='Enter your book title here'/><br/>
       <input type='text'class='area' value={input} onChange={handleonChange} placeholder='Enter your book excerpt here'/><br/>
       <input type='text'class='area' value={input} onChange={handleonChange} placeholder='Enter your book ISBN here'/><br/>
       <input type='text'class='area' value={input} onChange={handleonChange} placeholder='Enter your book category here'/><br/>
