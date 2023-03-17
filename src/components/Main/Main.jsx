@@ -8,7 +8,7 @@ function Main() {
     
     <div><Header/>
     <div class='component'>
-        <h1>Library</h1><div class='shift'><Body/></div></div></div>
+        <h1>Welcome to this e-Library.</h1><div class='shift'><Body/></div></div></div>
   )
 }
 

@@ -11,8 +11,6 @@ function Header() {
   const [clicking, setClicking]= useState(false)
 
   const handleClick=()=> setClick(!click)
-      
-    
   const handleClicked=()=>setClicked(!clicked)
   const handleClicks=()=> setClicks(!clicks)
   const handleClicking=()=> setClicking(!clicking)
@@ -23,7 +21,7 @@ function Header() {
     <h1>BOOKS MANAGEMENT</h1>
     
 <div class='header'>
-   <h3><NavLink className={click? "active": "change"} to='/' onClick={handleClick}>HomePage</NavLink></h3>
+    <h3><NavLink className={click? "active": "change"} to='/' onClick={handleClick}>HomePage</NavLink></h3>
     <h3><NavLink className={clicked? "active": "change"} to='/authors' onClick={handleClicked}>Authors</NavLink></h3>
     <h3><NavLink className={clicks? "active": "change"} to='/login' onClick={handleClicks}>Login</NavLink></h3>
     <h3><NavLink className={clicking? "active": "change"} to='/books' onClick={handleClicking}>Books</NavLink></h3>
