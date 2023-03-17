@@ -15,7 +15,7 @@ function LogIn() {
       <div class='section'>
       <div class= 'form'>
         <h1><span class='first'>L</span>ogIn <span class='second'>Here</span></h1>
-      <input type='text' class='inp' value={text} onChange={handleChange} placeholder='Enter your registered email here'/><br/>
+      <input type='text' class='inp' value={text} onChange={handleChange} placeholder='Enter your registered email'/><br/>
       <input type='text'class='inp' value={text} onChange={handleChange} placeholder='Enter your password here'/><br/>
       <button type='submit' class='sub'>LogIn</button>
       </div>
