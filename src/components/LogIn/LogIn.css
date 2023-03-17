@@ -1,0 +1,55 @@
+.form{
+    margin-top: 40px;
+
+    
+}
+
+.section{
+    display:flex;
+}
+
+.first{
+    color:red;
+    font-size: 90px;
+}
+
+h1{
+    margin-left: 60px;
+}
+
+.inp{
+    margin-top:8px;
+    margin-left: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: bisque;
+    font-size: 15px;
+    
+}
+.sub{
+    margin-top:15px;
+    margin-left: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: darkred 2px solid;
+    font-size: 30px;
+    font-weight: 10px;
+    color: white;
+    background-color: darkred;
+}
+
+.second{
+    
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.settle{
+    margin-right: 120px;
+}
+
+
+
+

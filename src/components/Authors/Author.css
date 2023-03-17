@@ -1,0 +1,43 @@
+h1{
+    margin-left: 60px;
+    font-size:35px ;
+}
+span{
+    font-size: 35px;
+    color: darkred;
+    text-decoration: underline;
+}
+
+.container{
+    display:flex;
+}
+
+.form-design{
+    margin-top: 60px;
+    
+}
+.area{
+    margin-top:8px;
+    margin-left: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: bisque;
+    font-size: 15px;
+    
+}
+.submit{
+    margin-top:15px;
+    margin-left: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: darkred 2px solid;
+    font-size: 25px;
+    font-weight: 10px;
+    color: white;
+    background-color: darkred;
+}
+
+
+
