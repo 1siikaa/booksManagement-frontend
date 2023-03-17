@@ -21,12 +21,12 @@ function Author() {
         event.preventDefault();
 
         try {
-            const res = await fetch('https://localhost:5000/authors', {
+            const res = await fetch('https://books-management-backend.vercel.app/authors', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify(input)
+                body: JSON.stringify({input})
             });
             const data = await res.json();
             console.log(data);
